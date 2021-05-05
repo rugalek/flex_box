@@ -1,0 +1,54 @@
+/*PC*/
+@media only screen and (min-width:720px) {
+
+    .nav_mobile {
+
+        display:none;
+
+    }
+}
+
+
+
+
+
+
+
+/*iPhone 6 и iPhone 6+ Портрет и Альбом */
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) { 
+
+    .wrapper {
+        width: 70%;
+        
+    }
+
+    .header{
+        position: relative;
+    }
+    .header__title{
+        font-size: 12px;
+    }
+    .header__subtitle {
+        font-size: 8px;
+    }
+    .nav{
+        
+        display:none;
+        position: unset;
+    }
+    .nav_mobile{
+        padding: 20px;
+    }
+    .nav__list {
+        
+        align-content: space-between;
+   
+    }
+    .nav__item {
+        font-size: 10px;
+        
+    }
+    .nav_mobile
+
+
+}
