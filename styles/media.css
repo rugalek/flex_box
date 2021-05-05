@@ -8,17 +8,11 @@
     }
 }
 
-
-
-
-
-
-
-/*iPhone 6 и iPhone 6+ Портрет и Альбом */
+/*iPhone 6 iPhone 6+  */
 @media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) { 
 
     .wrapper {
-        width: 70%;
+        width: 100%;
         
     }
 
@@ -34,9 +28,10 @@
     .nav{
         
         display:none;
-        position: unset;
+      
     }
-    .nav_mobile{
+    .nav__mobile{
+        display: flex;
         padding: 20px;
     }
     .nav__list {
@@ -46,9 +41,75 @@
     }
     .nav__item {
         font-size: 10px;
+    }
+
+    .about__cards{
+        margin-top: 20px;
+        align-content: center;
+    }
+    .about__card{
+        margin-top: 10px;
+        margin-left: 50px;
+        align-content: center;
+    }
+    .proposal__title{
+        padding-bottom: 10px;
+
+    }
+    .proposal__subtitle{
+        padding-bottom: 10px;
+
+    }
+    .proposal__card{
+        margin: 10px 0px;
+        align-content: center;
+    }
+    .proposal__card-title{
+        font-size: 12px;
+    }
+    .proposal__card--plan-bg , .proposal__card--manage-bg , .proposal__card--build-bg {
+
+        background-position: top 35px left 50%;
+    }
+    .signup{
+
+        justify-content:space-between;
+        flex-direction: column;
+
+    }
+    .signup__title {
+        padding: 0 0 20px 60px;
+    }
+
+   
+    .footer__links{
+
+        flex-flow: column;
+        align-items: center;
+     
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer__nav {
+       
+        align-items: center;
+        width: 100%;
         
     }
-    .nav_mobile
 
 
-}
+    .footer__contacts {
+    
+        align-items: center;
+        
+    }
+    .contact__description {
+      
+        align-items: center;
+     
+    }
+    .contacts__social-media {
+     
+        align-items: center;
+    }
